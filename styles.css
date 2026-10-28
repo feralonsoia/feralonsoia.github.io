@@ -70,12 +70,7 @@ h1 { max-width: 780px; margin-bottom: 26px; font-size: clamp(50px, 7vw, 91px); l
 .waveform span:nth-child(5n) { height: 38%; animation-delay: -.5s; }
 @keyframes wave { 50% { transform: scaleY(.4); opacity: .5; } }
 
-.marquee { overflow: hidden; border-block: 1px solid var(--line); background: var(--acid); }
-.marquee div { width: max-content; padding: 16px 0; display: flex; gap: 28px; align-items: center; animation: scroll 28s linear infinite; font: 500 11px var(--font-mono); letter-spacing: .08em; }
-.marquee i { font-style: normal; }
-@keyframes scroll { to { transform: translateX(-50%); } }
-
-.work-section { padding: 130px 0; }
+.work-section { padding: 130px 0; border-top: 1px solid var(--line); }
 .section-heading { display: grid; grid-template-columns: 1fr .72fr; gap: 40px; align-items: end; margin-bottom: 64px; }
 .section-heading h2, .about-copy h2, .contact-inner h2 { margin-bottom: 0; font-size: clamp(40px, 6vw, 72px); line-height: 1.02; letter-spacing: -.055em; }
 .section-heading > p { margin-bottom: 4px; color: var(--muted); font-size: 17px; }
