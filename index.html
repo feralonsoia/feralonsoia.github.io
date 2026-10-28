@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fernando Morquecho — AI agents, applied generative AI, technical education, and machine learning projects.">
+  <meta name="theme-color" content="#0b0d10">
+  <title>Fernando Morquecho · Applied AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Back to top">
+      <span class="brand-mark">FM</span>
+      <span>Fernando Morquecho</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#work" data-i18n="navWork">Work</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <button class="language-toggle" id="languageToggle" type="button" aria-label="Cambiar a español">ES</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">Applied AI · Agents · Product</span></p>
+        <h1 data-i18n="heroTitle">I turn AI concepts into tools people can actually use.</h1>
+        <p class="hero-lede" data-i18n="heroLede">I build conversational agents, LLM workflows, technical learning systems, and practical machine learning projects—with curiosity, testing, and a strong focus on the human using them.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work"><span data-i18n="seeWork">See selected work</span><span aria-hidden="true">↘</span></a>
+          <a class="button button-ghost" href="https://novamart-eco.pages.dev" target="_blank" rel="noreferrer"><span data-i18n="tryEco">Try my ElevenLabs project</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-console reveal" aria-label="Project capability overview">
+        <div class="console-bar">
+          <span></span><span></span><span></span>
+          <b>current_focus.md</b>
+        </div>
+        <div class="console-body">
+          <p><i>01</i><span>voice_agents</span><b>ElevenLabs</b></p>
+          <p><i>02</i><span>tool_calling</span><b>MCP · NIM · Ollama</b></p>
+          <p><i>03</i><span>multi_agent</span><b>CrewAI · FastAPI</b></p>
+          <p><i>04</i><span>machine_learning</span><b>Python · Deep Learning</b></p>
+        </div>
+        <div class="waveform" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Skills">
+      <div>
+        <span>CONVERSATIONAL AI</span><i>✦</i><span>LLM WORKFLOWS</span><i>✦</i><span>TOOL CALLING</span><i>✦</i><span>TECHNICAL EDUCATION</span><i>✦</i><span>RESPONSIBLE AI</span><i>✦</i>
+        <span>CONVERSATIONAL AI</span><i>✦</i><span>LLM WORKFLOWS</span><i>✦</i><span>TOOL CALLING</span><i>✦</i><span>TECHNICAL EDUCATION</span><i>✦</i><span>RESPONSIBLE AI</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="section-shell work-section" id="work">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow" data-i18n="selectedWorkEyebrow">Selected work · 2024–2026</p>
+          <h2 data-i18n="selectedWorkTitle">Learning by building.</h2>
+        </div>
+        <p data-i18n="selectedWorkIntro">Projects where I moved beyond the course material, tested the idea, and made it work in practice.</p>
+      </div>
+
+      <article class="featured-project reveal">
+        <div class="featured-copy">
+          <div class="project-meta">
+            <span>01</span>
+            <span class="project-label">ELEVENLABS · LIVE</span>
+          </div>
+          <h3>NovaMart / Eco</h3>
+          <p class="project-tagline" data-i18n="ecoTagline">A voice customer-support agent that can reason, protect sensitive actions, and control the storefront.</p>
+          <p data-i18n="ecoBody">I designed Eco to handle orders, returns, product questions, address changes, and human escalation. The project combines an ElevenLabs voice agent, a structured workflow, identity checks, knowledge, tools, guardrails, and a web experience that reacts to spoken requests.</p>
+          <ul class="project-points">
+            <li data-i18n="ecoPoint1">Built two guardrail variants with a 50/50 traffic split.</li>
+            <li data-i18n="ecoPoint2">Found a false identity-verification trigger, fixed the routing condition, and added a passing regression test.</li>
+            <li data-i18n="ecoPoint3">Connected voice commands to visual product navigation in the storefront.</li>
+          </ul>
+          <div class="tag-list"><span>ElevenLabs</span><span>Voice AI</span><span>Agent workflows</span><span>Testing</span><span>Guardrails</span></div>
+          <a class="text-link" href="https://novamart-eco.pages.dev" target="_blank" rel="noreferrer"><span data-i18n="openLiveProject">Open live project</span> <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <a class="voice-demo" href="https://novamart-eco.pages.dev" target="_blank" rel="noreferrer" aria-label="Open NovaMart Eco live demo">
+          <div class="demo-top"><span class="live-dot"></span><b>Eco is ready</b><span>LIVE DEMO</span></div>
+          <div class="orb">
+            <span class="orb-ring"></span>
+            <span class="orb-core">E</span>
+          </div>
+          <div class="demo-conversation">
+            <p data-i18n="ecoPrompt">“Show me the Nova Headphones.”</p>
+            <div class="audio-line"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="demo-result">
+            <span>CLIENT TOOL</span>
+            <code>mostrar_producto({ id: "nova-headphones" })</code>
+          </div>
+        </a>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-meta"><span>02</span><span class="project-label">MULTI-AGENT</span></div>
+          <h3>Antigravity MVP</h3>
+          <p data-i18n="antigravityBody">A multi-agent lead intake system that validates requests, routes B2B and B2C cases, produces a specialized response, drafts an email, and notifies the team in Slack.</p>
+          <div class="mini-flow" aria-hidden="true"><span>INTAKE</span><i>→</i><span>ROUTE</span><i>→</i><span>RESPOND</span></div>
+          <div class="tag-list"><span>CrewAI</span><span>FastAPI</span><span>Python</span><span>Slack</span></div>
+          <a class="text-link" href="https://github.com/Nandalf16/antigravity-mvp" target="_blank" rel="noreferrer"><span data-i18n="viewSource">View source</span> <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-meta"><span>03</span><span class="project-label">LLM INFRASTRUCTURE</span></div>
+          <h3>NIM / Ollama / MCP</h3>
+          <p data-i18n="nimBody">A teaching application that keeps one agent workflow while switching between remote NVIDIA NIM inference and local Ollama. It discovers MCP tools, validates calls, executes them, and returns the result to the model.</p>
+          <div class="provider-switch" aria-label="Provider switch illustration"><span>NVIDIA NIM</span><b>⇄</b><span>OLLAMA</span></div>
+          <div class="tag-list"><span>NVIDIA NIM</span><span>Ollama</span><span>MCP</span><span>Tool calling</span></div>
+          <span class="text-link muted" data-i18n="caseStudyAvailable">Case study available</span>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-meta"><span>04</span><span class="project-label">TECHNICAL EDUCATION</span></div>
+          <h3>Applied AI Bootcamp</h3>
+          <p data-i18n="bootcampBody">A complete learning package covering LLM foundations, inference, Nemotron/NIM/NeMo, tool calling, Anthropic Messages API, MCP, Linux setup, credential safety, and hands-on exercises.</p>
+          <div class="document-stack" aria-hidden="true"><span>GUIDES</span><span>SLIDES</span><span>LABS</span></div>
+          <div class="tag-list"><span>Curriculum</span><span>Anthropic</span><span>NVIDIA</span><span>MCP</span></div>
+          <span class="text-link muted" data-i18n="materialsAvailable">Materials available on request</span>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-meta"><span>05</span><span class="project-label">AI · FINANCE</span></div>
+          <h3>Transaction Foundation Models</h3>
+          <p data-i18n="creditBody">A feasibility study and IPOC architecture for using transaction foundation models in credit scoring, including data design, evaluation metrics, MLOps, governance, risk, cost, and clear no-go criteria.</p>
+          <div class="metric-row" aria-hidden="true"><span>DATA</span><i></i><span>MODEL</span><i></i><span>GOVERN</span></div>
+          <div class="tag-list"><span>Credit scoring</span><span>Architecture</span><span>MLOps</span><span>Governance</span></div>
+          <span class="text-link muted" data-i18n="whitepaperAvailable">White paper available on request</span>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-meta"><span>06</span><span class="project-label">DEEP LEARNING · HEALTH</span></div>
+          <h3>Glioma Segmentation</h3>
+          <p data-i18n="gliomaBody">A Jupyter-based deep learning project for glioma segmentation in T1-weighted MRI images, covering preprocessing, model training, and evaluation.</p>
+          <div class="scan-visual" aria-hidden="true"><span></span><i></i></div>
+          <div class="tag-list"><span>Jupyter</span><span>Deep learning</span><span>Medical imaging</span></div>
+          <a class="text-link" href="https://github.com/Nandalf16/Gliomas" target="_blank" rel="noreferrer"><span data-i18n="viewNotebook">View notebook</span> <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell about-section" id="about">
+      <div class="about-number reveal">06</div>
+      <div class="about-copy reveal">
+        <p class="eyebrow" data-i18n="aboutEyebrow">How I work</p>
+        <h2 data-i18n="aboutTitle">Curious enough to explore. Practical enough to ship.</h2>
+        <p data-i18n="aboutBody1">My path into AI has been hands-on: take the concept from a course, open the tool, build something, break it, understand why, and improve it. That loop has taught me more than simply following instructions.</p>
+        <p data-i18n="aboutBody2">I enjoy the point where technology meets a real person—whether that means making a voice agent safer, helping a model call the right tool, or turning a complex topic into a lesson someone can use.</p>
+      </div>
+      <div class="principles reveal">
+        <div><b>01</b><span data-i18n="principle1">Start with the user, not the model.</span></div>
+        <div><b>02</b><span data-i18n="principle2">Test the uncomfortable edge cases.</span></div>
+        <div><b>03</b><span data-i18n="principle3">Explain complex systems simply.</span></div>
+        <div><b>04</b><span data-i18n="principle4">Keep learning in public.</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-shell contact-inner reveal">
+        <p class="eyebrow" data-i18n="contactEyebrow">Let’s build something useful</p>
+        <h2 data-i18n="contactTitle">Interested in applied AI, agents, and products that feel human.</h2>
+        <div class="contact-actions">
+          <a class="button button-light" href="https://github.com/feralonsoia" target="_blank" rel="noreferrer"><span data-i18n="currentGithub">Current GitHub</span> ↗</a>
+          <a class="button button-outline-light" href="https://github.com/Nandalf16" target="_blank" rel="noreferrer"><span data-i18n="mlGithub">ML projects</span> ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Fernando Morquecho · <span id="year"></span></span>
+    <span data-i18n="footerLine">Built through courses, experiments, and a lot of iteration.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
